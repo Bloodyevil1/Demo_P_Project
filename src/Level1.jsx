@@ -1,28 +1,54 @@
 import { useState } from "react";
 import "./Level1.css";
-import image1 from "./assets/image1.png"; // Example local image
-
+import image1 from "./assets/int1.png";
+import image2 from "./assets/int2.png";
+import image3 from "./assets/int3.png";
+import image4 from "./assets/int4.png";
+import image5 from "./assets/int5.png";
+import image6 from "./assets/int6.png";
+import image7 from "./assets/int7.png";
+import image8 from "./assets/int8.png";
 function Level1() {
   const cards = [
     {
       title: "Fun & Fun",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo at quo quos asperiores recusandae vel aut magni? Assumenda obcaecati accusamus earum blanditiis hic vero exercitationem beatae corrupti facere illum.",
+      desc: "Run your fingers slowly down their back.",
       image: image1
     },
     {
       title: "Adventure Time",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo at quo quos asperiores recusandae vel aut magni? Assumenda obcaecati accusamus earum blanditiis hic vero exercitationem beatae corrupti facere illum. Repellendus dicta iste quae est quod accusamus sed dolorem illo consectetur amet. Non, eos.",
-      image: "https://picsum.photos/id/1025/600/400"
+      desc: "Bite your partner’s lip gently while kissing.",
+      image: image2
     },
     {
       title: "Relax & Chill",
-      desc: "Velit, adipisci sequi. Cupiditate quae ratione voluptas, autem quis, obcaecati dolores eveniet, alias minus unde odit debitis.",
-      image: "https://picsum.photos/id/1035/600/400"
+      desc: "Kiss them softly, then pause with your lips just apart.",
+      image: image3
+    },
+    {
+      title: "Checking",
+      desc: "Run your lips along their shoulder slowly.",
+      image: image4
+    },
+    {
+      title: "Checking",
+      desc: "Let your fingers graze their lips before kissing.",
+      image: image5
+    },
+    {
+      title: "Checking",
+      desc: "Playfully trap them against the wall with your body.",
+      image: image6
     },
     {
       title: "Checking",
       desc: "Velit, adipisci sequi. Cupiditate quae ratione voluptas, autem quis, obcaecati dolores eveniet, alias minus unde odit debitis.",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuzdhPGMDqTMp3WL5eudAnGdLvc9aO9yhukA&s"
+      image: image7
+    },
+    {
+      title: "Checking",
+      desc: "Run your fingers slowly down their spine.",
+      image: image8
     }
   ];
 
